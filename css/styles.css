@@ -1,0 +1,109 @@
+header {
+  background-color: rgb(116, 131, 177);
+}
+header .navbar-brand {
+  font-size: 25px;
+  padding-left: 50px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header #navbarNav {
+  justify-content: end;
+  align-items: end;
+}
+header #navbarNav li {
+  padding-right: 50px;
+}
+header #navbarNav a {
+  color: black;
+}
+
+#carouselExampleIndicators {
+  margin: 2%;
+}
+#carouselExampleIndicators .carousel-inner {
+  border-radius: 1cap;
+}
+
+#texto {
+  margin: 10%;
+}
+#texto h1 {
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#texto p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(116, 131, 177);
+  padding: 3%;
+}
+footer img {
+  height: 30px;
+  justify-content: end;
+  align-items: end;
+}
+
+@media screen and (max-width: 768px) {
+  #carouselExampleIndicators {
+    margin: 0%;
+  }
+  #carouselExampleIndicators .carousel-inner {
+    border-radius: 0cap;
+  }
+}
+#cards {
+  margin: 1%;
+}
+#cards .card {
+  margin-bottom: 10px;
+}
+#cards .card-body h5 {
+  font-size: 20px;
+}
+#cards .card-body p {
+  font-style: oblique;
+  font-size: 13px;
+}
+
+.container-contacto {
+  background-color: rgb(202, 202, 202);
+}
+.container-contacto #contacto {
+  padding: 10%;
+}
+.container-contacto #contacto #contacto-1 {
+  padding: 7%;
+}
+.container-contacto #contacto #contacto-1 input {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  width: 40cap;
+}
+.container-contacto #contacto #contacto-1 button {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+.container-contacto #contacto #contacto-1 textarea {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  width: 40cap;
+}
+
+.nav-link {
+  border-radius: 1px;
+  border-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
