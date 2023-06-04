@@ -10,21 +10,27 @@ header{
         color: black;
         font-family:$font-h1;
     }
+
+    button{
+        span{
+            color: black;
+        }
+    }
+
     #navbarNav{
         justify-content: end;
         align-items: end;
+        color: black;
         li{
-            padding-right: 50px;
-        }
-        a{
-            color: black;
+            a{
+                color:black
+            }
         }
     }
 }
 
 #carouselExampleIndicators{
     margin: 2%;
-    ;
     .carousel-inner{
         border-radius: 1cap;
     }
@@ -92,7 +98,7 @@ footer{
                 border: 1px solid rgba(0,0,0,.1);
                 padding: 10px 20px;
                 margin-bottom: 15px;
-                width: 40cap;
+                width: 100%;
             }
             button{
                 background-color: #f7f7f7;
@@ -107,7 +113,7 @@ footer{
                 border: 1px solid rgba(0,0,0,.1);
                 padding: 10px 20px;
                 margin-bottom: 15px;
-                width: 40cap;
+                width: 100%;
             }
         }
     }
@@ -116,4 +122,11 @@ footer{
 .nav-link{
     border-radius: 1px;
     border-color: black;
+}
+
+@media  screen and (max-width: 500px) {
+    #sect-contact{
+        height: 100%;
+    }
+    
 }

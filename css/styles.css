@@ -7,14 +7,15 @@ header .navbar-brand {
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+header button span {
+  color: black;
+}
 header #navbarNav {
   justify-content: end;
   align-items: end;
+  color: black;
 }
-header #navbarNav li {
-  padding-right: 50px;
-}
-header #navbarNav a {
+header #navbarNav li a {
   color: black;
 }
 
@@ -83,7 +84,7 @@ footer img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   margin-bottom: 15px;
-  width: 40cap;
+  width: 100%;
 }
 .container-contacto #contacto #contacto-1 button {
   background-color: #f7f7f7;
@@ -98,12 +99,18 @@ footer img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
   margin-bottom: 15px;
-  width: 40cap;
+  width: 100%;
 }
 
 .nav-link {
   border-radius: 1px;
   border-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  #sect-contact {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
