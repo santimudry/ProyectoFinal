@@ -1,61 +1,12 @@
-$color-primario: rgb(116, 131, 177);
-$font-h1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@import 'variables.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'index.scss';
+@import 'contacto.scss';
+@import 'objetivos.scss';
 
 
-header{
-    background-color: $color-primario;
-    .navbar-brand{
-        font-size: 25px;
-        padding-left: 50px;
-        color: black;
-        font-family:$font-h1;
-    }
 
-    button{
-        span{
-            color: black;
-        }
-    }
-
-    #navbarNav{
-        justify-content: end;
-        align-items: end;
-        color: black;
-        li{
-            a{
-                color:black
-            }
-        }
-    }
-}
-
-#carouselExampleIndicators{
-    margin: 2%;
-    .carousel-inner{
-        border-radius: 1cap;
-    }
-}
-
-#texto{
-    margin: 10%;
-    h1{
-        font-size: 60px;
-        font-family: $font-h1;
-    }
-    p{
-        font-size: 20px;
-    }
-}
-
-footer{
-    background-color: $color-primario;
-    padding: 3%;
-    img{
-        height: 30px;
-        justify-content: end;
-        align-items: end;
-    }
-}
 
 
 @media  screen and (max-width: 768px) {
@@ -63,6 +14,12 @@ footer{
         margin: 0%;
         .carousel-inner{
             border-radius: 0cap;
+        }
+    }
+    #objetivos{
+        #text-2{
+        padding-left: 200px;
+        padding-right: 600px;
         }
     }
 }
@@ -85,39 +42,6 @@ footer{
     }
 }
 
-
-.container-contacto{
-    background-color: rgb(202, 202, 202);
-    #contacto{
-        padding: 10%;
-        #contacto-1{
-            padding: 7%;
-            input{
-                background-color: #f7f7f7;
-                border-radius: 4px;
-                border: 1px solid rgba(0,0,0,.1);
-                padding: 10px 20px;
-                margin-bottom: 15px;
-                width: 100%;
-            }
-            button{
-                background-color: #f7f7f7;
-                border-radius: 4px;
-                border: 1px solid rgba(0,0,0,.1);
-                padding: 10px 20px;
-                margin-bottom: 15px;
-            }
-            textarea{
-                background-color: #f7f7f7;
-                border-radius: 4px;
-                border: 1px solid rgba(0,0,0,.1);
-                padding: 10px 20px;
-                margin-bottom: 15px;
-                width: 100%;
-            }
-        }
-    }
-}
 
 .nav-link{
     border-radius: 1px;

@@ -1,0 +1,26 @@
+header{
+    background-color: $color-primario;
+    .navbar-brand{
+        font-size: 25px;
+        padding-left: 50px;
+        color: black;
+        font-family:$font-h1;
+    }
+
+    button{
+        span{
+            color: black;
+        }
+    }
+
+    #navbarNav{
+        justify-content: end;
+        align-items: end;
+        color: black;
+        li{
+            a{
+                color:black
+            }
+        }
+    }
+}

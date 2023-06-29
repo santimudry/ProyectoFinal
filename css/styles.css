@@ -19,6 +19,16 @@ header #navbarNav li a {
   color: black;
 }
 
+footer {
+  background-color: rgb(116, 131, 177);
+  padding: 3%;
+}
+footer img {
+  height: 30px 1;
+  justify-content: end;
+  align-items: end;
+}
+
 #carouselExampleIndicators {
   margin: 2%;
 }
@@ -37,40 +47,9 @@ header #navbarNav li a {
   font-size: 20px;
 }
 
-footer {
-  background-color: rgb(116, 131, 177);
-  padding: 3%;
-}
-footer img {
-  height: 30px;
-  justify-content: end;
-  align-items: end;
-}
-
-@media screen and (max-width: 768px) {
-  #carouselExampleIndicators {
-    margin: 0%;
-  }
-  #carouselExampleIndicators .carousel-inner {
-    border-radius: 0cap;
-  }
-}
-#cards {
-  margin: 1%;
-}
-#cards .card {
-  margin-bottom: 10px;
-}
-#cards .card-body h5 {
-  font-size: 20px;
-}
-#cards .card-body p {
-  font-style: oblique;
-  font-size: 13px;
-}
-
 .container-contacto {
   background-color: rgb(202, 202, 202);
+  height: 1000px;
 }
 .container-contacto #contacto {
   padding: 10%;
@@ -100,6 +79,63 @@ footer img {
   padding: 10px 20px;
   margin-bottom: 15px;
   width: 100%;
+}
+
+html {
+  width: 100%;
+}
+html #objetivos {
+  height: 1000px;
+  width: 100%;
+}
+html #objetivos .container-fluid {
+  height: px;
+}
+html #objetivos #h1 {
+  padding: 60px;
+  justify-content: center;
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+html #objetivos #text-1 {
+  padding-left: 200px;
+  padding-right: 500px;
+}
+html #objetivos #text-2 {
+  padding-left: 500px;
+  padding-right: 200px;
+  text-align: end;
+}
+html #objetivos #text-3 {
+  padding-left: 200px;
+  padding-right: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  #carouselExampleIndicators {
+    margin: 0%;
+  }
+  #carouselExampleIndicators .carousel-inner {
+    border-radius: 0cap;
+  }
+  #objetivos #text-2 {
+    padding-left: 200px;
+    padding-right: 600px;
+  }
+}
+#cards {
+  margin: 1%;
+}
+#cards .card {
+  margin-bottom: 10px;
+}
+#cards .card-body h5 {
+  font-size: 20px;
+}
+#cards .card-body p {
+  font-style: oblique;
+  font-size: 13px;
 }
 
 .nav-link {
